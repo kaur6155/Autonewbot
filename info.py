@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '25863055'))
 API_HASH = environ.get('API_HASH', '3d83dfe76b57b3f47de4fc8031aeb8c8')
-BOT_TOKEN = environ.get('BOT_TOKEN', '0')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7650052878:AAFNGOwTquwcYOWUgeClzLaxaASuuGD5EZw')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '25863055').split()]
@@ -36,7 +36,7 @@ BIN_CHANNEL = int(environ.get('BIN_CHANNEL','0'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0'))
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '0'))
 auth_channel = environ.get('AUTH_CHANNEL', '')
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '0'))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', 'https://t.me/TP_Movies_request'))
 request_channel = environ.get('REQUEST_CHANNEL', '0')
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '0'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/TP_Movies_request') #Support group link ( make sure bot is admin )
